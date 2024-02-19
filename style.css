@@ -1,4 +1,12 @@
-#container{
+*{
+    box-sizing: border-box;
+}
+
+html, body, #container {
+    margin: 0;
+    height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
